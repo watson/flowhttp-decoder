@@ -1,0 +1,40 @@
+{
+  "name": "flowhttp-decoder",
+  "version": "0.1.0",
+  "description": "A flowHttp extension used for decoding gzip og deflate encoded HTTP responses",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.16.2",
+    "flowhttp": "~0.3.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/watson/flowhttp-decoder.git"
+  },
+  "keywords": [
+    "flowhttp",
+    "gzip",
+    "deflate",
+    "unzip",
+    "gunzup",
+    "inflate",
+    "zip",
+    "encoding",
+    "http",
+    "https",
+    "stream",
+    "stream2",
+    "decode",
+    "zlib"
+  ],
+  "author": "Thomas Watson Steen <w@tson.dk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watson/flowhttp-decoder/issues"
+  },
+  "homepage": "https://github.com/watson/flowhttp-decoder"
+}
